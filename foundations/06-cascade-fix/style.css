@@ -1,5 +1,5 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .para,
@@ -8,20 +8,9 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
 .para {
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,34 +18,8 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
-  font-size: 22px;
   font-weight: 100;
+  font-size: 22px;
 }
-
-
-/*
-
-You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around. 
-
-**You should not edit the HTML file or any of the actual styles in the CSS**.
-
-There are multiple ways to solve this exercise, and we did our best to include all of the possible solutions for each element.
-
-Issues with the cascade can be the bane of their existence for many when it comes to CSS. 
-While you won't become a cascade expert from this exercise alone, and there are other ways to deal with these issues, 
-it is still super helpful to see how these issues affect our final styles and why it's important to order rules carefully.
-
-### Self Check
-
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
-
-*/
