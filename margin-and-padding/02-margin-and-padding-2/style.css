@@ -7,34 +7,40 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
   font-size: 16px;
-  margin-top: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  display: inline-block;
-  margin: 0 auto;
+  padding: 8px;
   text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
  
 }
 
 /*There is 8px (marging-top) between the edge of the card and its content (the blue sections).
 - There is an 8px gap (margin in .card) between each of the blue sections inside the card.
-- The title of the card uses a 16px font.
+
 - There are 8px marging between the title text and the edge of the title section.
 - The content section has 16px padding on the top and bottom, and 8px padding on either side.
 - Everything inside the `.button-container` section is centered, and there is 8px padding.
